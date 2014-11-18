@@ -1,0 +1,1 @@
+function getParameterByName(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var t=new RegExp("[\\?&]"+e+"=([^&#]*)"),n=t.exec(location.search);return n===null?"":decodeURIComponent(n[1].replace(/\+/g," "))}$(document).ready(function(){var e=getParameterByName("i");if(e==="ok")$("#p").css("visibility","visible")})
