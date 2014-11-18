@@ -23,6 +23,7 @@ body {
   max-width: 100%;
   background-color: #F5F2E7;
   border-radius: 2px;
+  max-width: 90%;
 }
 .card #p {
   display: none;
