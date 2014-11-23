@@ -25,6 +25,9 @@ body {
   border-radius: 2px;
   max-width: 90%;
 }
+.card .old-time {
+  text-decoration: line-through;
+}
 .card #p {
   display: none;
 }
